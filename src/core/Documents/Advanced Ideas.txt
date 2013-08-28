@@ -1,0 +1,109 @@
+jBomber Advanced Game Ideas/Concepts
+====================================
+====================================
+Main Menu:
+    * Start game
+    * Options menu and volume
+    * Credits
+    * Exit
+
+Pause Menu:
+    * Restart
+    * Quit
+    * Main menu
+    * Volume controls
+
+Map Editor:
+    * Will be played like a game
+    * Can hit 1,2,3, etc to choose what item, wall, power-up, and start points to lay down
+    * Move the item with arrows like the game and lay like a bomb
+    * Saves map to a text file with a way that can be read by the game
+
+Variable Map Size:
+    * The map size is fixed at 10x10, but if it is a 20x20 map, then at a certain point, the map begins to scroll with the character.
+
+Scoring:
+    * Points for blowing up boxes, bombs, other BomberMen
+    * Points will help you gain exp and level-up
+    * Can be used to make a high score
+    * Can help with the leaderboard
+
+Power-Ups:
+    * Can be used to enchance bomb or player attributes
+    * Can be good or bad
+    * Come out of boxes when blown up
+    * Random when they are generated
+
+Different Bombs:
+    * C4 with remote detionation
+    * Proximity mines that go off when another player is near
+    * Missles where you choose where to hit
+    * Constant stream of bombs
+
+Online Multiplayer:
+    * Either 4 or 8 people playing at once online
+    * Try to be the last one living
+    * Could have an objective
+    * Could even go co-op
+    * Online leaderboard
+    * Chat rooms
+
+Sounds:
+    * Music and sound effects
+    * Mute and volume controls
+
+AI:
+    * Simple adversaries
+    * Could be another BomberMan
+
+Game Types:
+    * King of the hill
+    * Capture the flag
+    * Deathmatch
+    * Team Deathmatch
+    * Oddball
+    * Juggernaut
+
+Elemental:
+    * Fire, ice, earth, and air elemental attributes
+    * Fire can burn down boxes and/or walls
+    * Ice will make a player and/or bombs slide across the map
+    * Earth can create a new wall when laid
+    * Air could be used to move a player and/or bombs to a random place on the map
+
+Health Bar:
+    * A health bar will be used instead of lives
+    * Health progressively goes down or up based on power-ups
+    * Could even get poisoned
+
+Dynamic Maps:
+    * Secret walls lead to new levels
+    * Special power-ups and/or bombs behind walls
+    * Holes and spike pits under certain boxes
+    * Z-axis with bridges and tunnels
+
+Dynamic Character/RPG:
+    * Leveling-up of a personal character
+    * Can be saved to an online database with login
+    * Have a skill set and be able to up skills
+    * Different types of bombermen have different attributes
+
+Story Line:
+    * Several levels with different objectives
+    * Puzzle and action adventure
+    * Could be co-op online
+    * Story to come
+
+Puzzle Mode:
+    * Some many bombs to make it through map
+    * So much time to make it through map
+    * Choose certain power-ups to help
+    * Chain reactions
+
+Achievements:
+    * Certain points in the story mode
+    * Completing certain puzzles or extra parts in the challenges
+    * Multi-player challenges
+    * Reaching certain levels on the leaderboards
+
+Pets? 

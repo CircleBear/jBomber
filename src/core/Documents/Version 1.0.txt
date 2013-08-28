@@ -1,0 +1,36 @@
+jBomber v1.0 Design Document
+==================================================================
+The design document for v1.0 contains any information regarding the
+creation, design, progress, and completion of this project.
+
+This is a direct transcription of the document created on 6/17/10:
+==================================================================
+We want a 2D world (gameboard) with birds eye view and in the world
+is a figure who is the bomber. The gameboard is a grid which will be
+10x10 for now, but can be defined as X by Y in the future so that it
+is variable (this will affect the way the GUI is designed though). 
+Also in the world are obstacles which for now will only include boxes
+and bombs. The bomber is able to walk up, down, left, and right if
+there aren't obstacles in the way. As the bomber moves around, he is
+able to drop bombs. After a prescribed amount of time, the bomb will
+detonate. The bomb explosion will go in each of the four directions
+a length of one grid space. Provided that one of the spaces isn't
+a wall. The bomber starts each game with 1 life. If the bomber is hit
+by his own explosion, then he loses a life. When a box gets hit by the
+bomb explosion it is destroyed and disappears leaving an empty floor
+space. For this version, the bomber will most likely start in the
+lower left-hand corner for each game (however, this is specified in
+the map text file, so it can be easily changed).
+==================================================================
+Original Map Text File:
+
+--x-x-x-x-
+-xxx-xxx--
+-x-xx--xxx
+xx--xxx---
+--xx---xx-
+xx--x-x-x-
+--xx--x--x
+xx--xx-x--
+x-xx---xxx
+P---x-x--- 

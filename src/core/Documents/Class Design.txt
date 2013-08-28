@@ -1,0 +1,52 @@
+Class Design for jBmomber:
+
+Status:				Classes:		Fuctions:				Description:
+					Game			main()					This will be the class that represents an instance of the game as an application. It
+															will contain all the methods and variables that pertain to an instance of a particular game.
+															
+					GamePanel								This will be the class that runs the game and contains the threading. I am not sure what else
+															this class is for, but I am pretty sure we need it.
+					
+					jBomber			main()					This will be the main portion of the game.
+									pauseGame()				It will have the fuctionality to control the player, items, map parser, music, and graphics. (Networking if we get to it).
+									resumeGame()			Could possibly create threads for all fuctions but not necessarily needed.
+									stopGame()				
+															
+					Graphics		rePaint()				This class will be called anytime there is an update with a player or item in game.
+									updateScore()			It will have control of all of our picture files and interact with them directly.
+									updateCharacters()		Should really only be called when there is a need for a re-paint, otherwise waste of time.
+									setMap()
+									menus()
+									
+					Bomber			set/getScore()			The bomber will have a controller class inside to know its own controls.
+									set/getHealth()			Will need to have a graphics class inside to call re-paint when bomber has moved.
+									set/getName()			Can have variables for bomber name, score, life, etc.
+									layBomb()				Will also need item class inside to lay bombs.
+									
+					Item			set/getPosition()		The item will need to know if it is a bomb or box to set fuse time if bomb.
+									isBomb()				Will need to call graphics class to re-paint when bomb blows up or if box is blown up.
+									isBox()					Bombs will need to be attached to a bomber to keep track of scoring points.
+									fuseTime()				Need to create a thread for fuse time so know when to blow bombs up.
+									addPoints()				Needs to check for other items in area to destroy.
+									blowUp()
+									
+Should be done,		MapParser		parseMap()				This class will only be used at the beginning of a game to draw the original layout of a map.
+though needs to						drawMap()				Will need to call graphics class to draw the original layout.
+be tested.													Will need to return the map to the jBomber class so the bombers know where they are in the game.
+															
+					Position		set/getXCoord()			This class will be used by both bombers and items in the game.
+									set/getYCoord()			It will keep track of everything's position in the world so it can be used for collision detection.
+															Will also return x and y coordinates of everything to be use by collision class.
+															
+					Collision		checkCollision()		Will be used by bombs, items, and bombers in the game.
+															Will be checked when a bomber moves or when a bomb explodes.
+															Will need a list of the current map and where everything is.
+															From this list, it can get x and y coordinates to check for collisions.
+															If there is a collision, the game will re-paint itself.
+															
+Key press works,	Controller		keyReleased()			Will be used by only the bombers in the game.
+need to figure out					keyTyped()				Will need to know if the bomber is Player1 or Player2 to determine controls.
+how will integrate					keyPressed()			Will tell the bomber which way they have moved so the bomber can update its position.
+to other classes.											Also defines special keys (escape, p, etc.) for special in-game purposes.
+															jBomber will need a controller class to be used with a menu is up to select options.
+									

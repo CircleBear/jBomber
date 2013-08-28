@@ -1,0 +1,10 @@
+This site defines all the key code numbers for every key that can be pressed:
+http://java.sun.com/j2se/1.4.2/docs/api/constant-values.html#java.awt.event.KeyEvent.VK_KP_LEFT
+
+I commented out what was there before and made some changes thanks to this site:
+http://www.roseindia.net/java/example/java/awt/how-to-use-keylistener.shtml
+With the changes I had to implement KeyListener which meant I needed KeyPressed, KeyTyped, and KeyReleased.
+
+This forum helps show an easy way to display an image onto a JPanel:
+http://stackoverflow.com/questions/299495/java-swing-how-to-add-an-image-to-a-jpanel
+

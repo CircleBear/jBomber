@@ -1,0 +1,13 @@
+jBomber v1.1 Design Document
+==================================================================
+The design document for v1.1 contains any information regarding the
+creation, design, progress, and completion of this project.
+
+This is what we talked about on 7/15/2010:
+==================================================================
+- We would like to cleanup the code and make sure the methods,
+	variables, etc. have a purpose and flow nicely.
+- Javadoc the classes and update them to v1.1.
+- Make an executable jar with images and parameters working.
+- Make images only read 1 time instead of everytime they
+	are being drawn.
