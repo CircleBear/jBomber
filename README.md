@@ -1,6 +1,6 @@
 # jBomber
 
-A simple Bomberman clone written in Java.
+A simple [Bomberman](http://en.wikipedia.org/wiki/Bomberman) clone written in Java.
 
 ## License
 
